@@ -1,13 +1,16 @@
+/*This is the wildcard html selector that affects the overall style of the whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This selector targets the body element of the html*/
 body {
     background-color: #d9dcd6;
 }
 
+/*This selector targets the header class element*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*This targets the h1 element within the header class*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
+/*This selector targets only the color of the element ID seo*/
+#seo {
     color: #d9dcd6;
 }
 
+/*This selector affects all divs under the header class*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,18 @@ body {
     font-size: 20px;
 }
 
+/*this selector affects the unordered list in the div child of the class header*/
 .header div ul {
     list-style-type: none;
 }
 
+/*This selector changes the attributes of the line items in the unordered list under the header class*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*this selector provides and  formats the background image for the middle of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*This selector moves the images for Search engine optimization and Social media marketing to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*this selector moves the image for online reputation management to the right within the box*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*this selector makes the subsequent contents classes display in blocks and only take up 75% of the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Selector provides formatting for the the benefits class box*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*formats the margin and text color for the benefit class*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*formats the text alignment and bottom margin for all h3 within class benefit*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*makes the images of the benefit class display as block and sets their maximum width and margin*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Provides the text and box formatting for all of the contents class*/
 .contents {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,24 +110,34 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*sets height for all images within the contents class*/
 .contents img {
     max-height: 200px;
 }
-
+/*formats h2 elements font size for the contents class*/
 .contents h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This selector affects the color and decoration of the on page reference links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
-.footer {
+/*This selector affects all paragraph elements in the html*/
+p {
+    font-size: 16px;
+}
+/*targets footer selector for alignment and font*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/*Targets h2 within footer for font size change*/
+footer h2 {
     font-size: 20px;
 }
