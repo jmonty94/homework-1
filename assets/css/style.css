@@ -10,16 +10,16 @@ body {
     background-color: #d9dcd6;
 }
 
-/*This selector targets the header class element*/
-.header {
+/*This selector targets the header*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/*This targets the h1 element within the header class*/
-.header h1 {
+/*This targets the h1 element within the header */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -29,8 +29,8 @@ body {
     color: #d9dcd6;
 }
 
-/*This selector affects all divs under the header class*/
-.header div {
+/*This selector affects all divs under the header*/
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,13 +38,13 @@ body {
     font-size: 20px;
 }
 
-/*this selector affects the unordered list in the div child of the class header*/
-.header div ul {
+/*this selector affects the unordered list in the div child of the header*/
+header div ul {
     list-style-type: none;
 }
 
-/*This selector changes the attributes of the line items in the unordered list under the header class*/
-.header div ul li {
+/*This selector changes the attributes of the line items in the unordered list under the header*/
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
