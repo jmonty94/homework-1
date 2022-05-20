@@ -30,7 +30,7 @@ header h1 {
 }
 
 /*This selector affects all divs under the header*/
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ header div {
 }
 
 /*this selector affects the unordered list in the div child of the header*/
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /*This selector changes the attributes of the line items in the unordered list under the header*/
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
